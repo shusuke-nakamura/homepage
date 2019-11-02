@@ -107,3 +107,65 @@ header #header_contact {
 #global_navi ul li a:hover {
   background-color: #8c7a5b;
 }
+
+#wrapper {
+  width: 980px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+#main {
+  width: 730px;
+  float: left;
+}
+
+#sidebar {
+  width: 220px;
+  float: right;
+}
+
+#side_banner {
+  margin-bottom: 30px;
+}
+
+#side_banner h2 {
+  background-color: #716961;
+  color: #fff;
+  padding: 7px;
+  font-size: 14px;
+  text-align: center;
+}
+
+#side_banner ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+#side_banner ul li {
+  margin-bottom: 10px;
+}
+
+#side_contact {
+  border: 1px solid #b7a077;
+  color: #7F7259;
+  text-align: center;
+}
+
+#side_contact h2 {
+  background-color: #b7a077;
+  color: #fff;
+  padding: 7px;
+  font-size: 14px;
+}
+
+#side_contact address {
+  font-weight: bold;
+  font-size: 20px;
+  font-style: normal;
+}
+
+#side_contact address img {
+  vertical-align: middle;
+  margin-right: 5px;
+}
