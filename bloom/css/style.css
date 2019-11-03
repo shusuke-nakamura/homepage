@@ -403,3 +403,95 @@ footer small {
 #entry #submit_button:hover {
   background-color: #c7ae81;
 }
+
+@media screen and (max-width : 767px) {
+  img {
+    max-width: 100%;
+  }
+  header,
+  #global_navi,
+  #sidebar,
+  #wrapper {
+    width: 100%;
+  }
+
+  header h1 {
+    float: none;
+    text-align: center;
+  }
+
+  header h1 img {
+    width: 50%;
+  }
+
+  header #header_contact {
+    display: none;
+  }
+
+  #global_navi ul li {
+    width: 50%;
+    padding: 0.5px;
+    margin: 0;
+    box-sizing: border-box;
+  }
+
+  #global_navi ul li a {
+    margin: 0;
+  }
+
+  #global_navi ul li:last-child {
+    width: 100%;
+  }
+
+  #main {
+    width: 100%;
+    padding: 0 5%;
+    box-sizing: border-box;
+  }
+
+  #main figure {
+    text-align: center;
+  }
+
+  #main_visual {
+    width: 100%;
+    height: auto;
+  }
+
+  #point figure {
+    float: none;
+    margin: 0 0 11px 0;
+  }
+
+  #side_banner ul li {
+    text-align: center;
+    margin: 11px auto;
+  }
+
+  #side_contact address img {
+    width: 14px;
+    height: 20px;
+  }
+
+  #entry dl dt {
+    float: none;
+    width: 100%;
+    box-sizing: border-box;
+  }
+
+  #entry dl dd {
+    width: 100%;
+    margin-left: 0;
+    border-left: none;
+    box-sizing: border-box;
+  }
+
+  #entry #name, #entry #email, #entry #interest {
+    max-width: 100%;
+  }
+
+  #entry #detail {
+    width: 100%;
+    box-sizing: border-box;
+  }
+}
