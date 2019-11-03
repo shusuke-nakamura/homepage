@@ -20,6 +20,10 @@ a:hover {
   text-decoration: none;
 }
 
+a img {
+  transition: opacity 0.2s linear;
+}
+
 a:hover img {
   opacity: 0.7;
 }
@@ -98,6 +102,7 @@ header #header_contact {
   background-color: #352b23;
   color: #ffff;
   text-decoration: none;
+  transition: background-color 0.2s linear;
 }
 
 #global_navi ul li.current a {
@@ -213,4 +218,38 @@ footer #footer_nav li {
   margin-left: 8px;
   padding-left: 8px;
   font-size: smaller;
+}
+
+footer #footer_nav li:last-child {
+  border-right: solid 1px #aaa;
+  padding: 0 8px;
+}
+
+footer small {
+  display: block;
+  padding: 8px 0;
+  color: #fff;
+}
+
+#breadcrumb {
+  font-size: smaller;
+}
+
+#breadcrumb ol {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+#breadcrumb ol li {
+  display: inline;
+}
+
+#breadcrumb ol li::after {
+  content: ">";
+  padding-left: 7px;
+}
+
+#breadcrumb ol li:last-child::after {
+  content: none;
 }
